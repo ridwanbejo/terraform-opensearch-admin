@@ -6,7 +6,8 @@ Currently, you can manage these resources in OpenSearch by using this module:
 
 - user
 - role
-- config
+- cluster setting
+- audit config
 
 Tested in:
 
@@ -17,8 +18,8 @@ Tested in:
 Requirements:
 
 - Terraform with version >= 1.4
-- Cyrilgdn/postgresql
-- Hashicorp/random
+- opensearch-project/opensearch
+- hashicorp/random
 
 ## B. How to use this module for your Terraform project ?
 
